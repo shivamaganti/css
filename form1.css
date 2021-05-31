@@ -1,0 +1,78 @@
+body{
+	background-color: lightgoldenrodyellow;
+	ont-family: 'Anaheim';
+  font-size: 1.2em;
+  padding: 20px 150px 20px 150px;
+  
+}
+.box{
+	
+	padding: 20px;
+	background-color: white;
+	border: 1px solid lightgrey;
+	border-radius: 50px;
+	align-items: center;
+	display: block;
+	margin:0 auto;
+	
+}
+.person{
+	border: 1px solid lightgrey;
+	padding-bottom: 10px;
+	border-radius: 10px;
+}
+legend{
+	margin-bottom: 10px;
+}
+label{
+	padding-left: 15px;
+	color: grey;
+}
+#left{
+	margin-bottom: 20px; /* for the personal statments gaps */
+}
+#gen{
+	margin-left: 20px;
+}
+input:focus, textarea:focus {
+  /* To give a little highligh on active elements */
+  border-color: OrangeRed;
+}
+#date{
+	margin-left: 20px;
+	margin-bottom: 5px;
+	max-width: 70%;
+}
+.fourth{
+	order: 1px solid lightgrey;
+	padding-bottom: 10px;
+}
+
+div + div {
+  margin-top: 10px;
+  }
+textarea{
+	width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+button{
+	  margin: .5em;
+  font-size: 1em;
+  text-transform: capitalize;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 2px;
+  border-left:50px ;
+}
+.button{
+	display: flex; 
+  justify-content: center;
+}
